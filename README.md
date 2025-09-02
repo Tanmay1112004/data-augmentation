@@ -97,8 +97,3 @@ PRs and feature requests are welcome! Feel free to fork this repo and enhance th
 MIT License © 2025
 
 ```
-
----
-
-👉 Do you also want me to write a **`requirements.txt`** for you (so your repo is plug-and-play), or do you prefer keeping dependencies inside Colab only?
-```
