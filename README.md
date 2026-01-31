@@ -3,11 +3,6 @@
 An interactive, real-time web application designed to help developers and data scientists visualize how **ImageDataGenerator** parameters transform their datasets. Stop guessing your augmentation values—see them in action.
 
 ---
-## Demo Images
-
-![demo](data-augmentation/Data Augmentation/screenshots/Screenshot 2025-09-02 083142.pngatmain·Tanmay1112004/data-augmentation)                                                                                    ![demo](data-augmentation/Data Augmentation/screenshots/Screenshot 2025-09-02 083208.pngatmain.Tanmay1112004/data-augmentation)                                                                                    ![demo](data-augmentation/Data Augmentation/screenshots/Screenshot 2025-09-02 083422.pngatmain·Tanmay1112004/data-augmentation)                                                                                    ![demo](data-augmentation/Data Augmentation/screenshots/Screenshot 2025-09-02 083557.pngatmain·Tanmay1112004/data-augmentation)                                                                                    ![demo](data-augmentation/Data Augmentation/screenshots/Screenshot 2025-09-02 083641.pngatmain·Tanmay1112004/data-augmentation)
-
----
 
 ## 🚀 Key Features
 
