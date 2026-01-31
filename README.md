@@ -1,99 +1,112 @@
-# ✨ Image Data Augmentation Playground
+# 📸 Image Data Augmentation Playground
 
-This project is a **Gradio-powered interactive app** that lets you visualize and experiment with **image data augmentation** in real time.  
-Upload an image, tweak augmentation parameters (rotation, zoom, shift, shear, flips, fill modes), and instantly preview augmented samples.  
-Built with **TensorFlow/Keras** + **Gradio**.
+An interactive, real-time web application designed to help developers and data scientists visualize how **ImageDataGenerator** parameters transform their datasets. Stop guessing your augmentation values—see them in action.
 
 ---
 
-## 🚀 Features
-- 📂 Upload any image (JPG/PNG)
-- 🎛️ Adjust augmentation parameters:
-  - Rotation range
-  - Width/Height shift
-  - Shear & Zoom
-  - Horizontal flip toggle
-  - Fill modes (`nearest`, `reflect`, `wrap`, `constant`)
-- 🖼️ Live preview with gallery view
-- ⚡ Generates multiple augmented samples at once
-- 🌐 Runs seamlessly in **Google Colab** or locally
+## 🚀 Key Features
+
+* **Real-time Interaction:** Tweak parameters and see results instantly via a sleek Gradio interface.
+* **Comprehensive Controls:** * **Geometric:** Rotation, Width/Height shifts, Shear, and Zoom.
+* **Logic:** Horizontal/Vertical flips and Fill Mode selection (`nearest`, `reflect`, etc.).
+
+
+* **Batch Preview:** Generates multiple augmented samples simultaneously to show the variance in your settings.
+* **One-Click Deployment:** Optimized for both local environments and **Google Colab**.
 
 ---
 
-## 🛠️ Installation
+## 🛠️ Technical Stack
 
-Clone the repo:
+| Component | Technology |
+| --- | --- |
+| **Deep Learning** | TensorFlow / Keras |
+| **Frontend UI** | Gradio |
+| **Image Processing** | Pillow / NumPy |
+| **Language** | Python 3.8+ |
+
+---
+
+## 📥 Installation & Setup
+
+### 1. Clone the Repository
+
 ```bash
 git clone https://github.com/your-username/image-data-augmentation-gradio.git
 cd image-data-augmentation-gradio
-````
 
-Install dependencies:
+```
+
+### 2. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
+
 ```
 
 ---
 
-## ▶️ Usage
+## ▶️ How to Use
 
-Run the app:
+### Local Execution
+
+Simply launch the script to start the local web server:
 
 ```bash
 python app.py
+
 ```
 
-Or directly in **Google Colab**:
+### Google Colab Quickstart
+
+If you're running in a notebook, ensure the libraries are present:
 
 ```python
 !pip install gradio tensorflow --quiet
+
+# Import and launch within the cell
+import app 
+# (Or paste your app.py code directly)
+
 ```
-
-```python
-import gradio as gr
-import tensorflow as tf
-```
-
-Then paste the code from `app.py` and launch 🚀.
-
----
-
-## 📸 Demo
-
-<img src="demo/demo.png" width="700">
 
 ---
 
 ## 📂 Project Structure
 
-```
-image-data-augmentation-gradio/
-│── app.py                # Gradio app code
-│── requirements.txt      # Dependencies
-│── README.md             # Documentation
-│── demo/                 # Screenshots / GIFs
+```text
+📦 image-data-augmentation-gradio
+ ┣ 📂 demo                # UI Screenshots & GIFs
+ ┣ 📜 app.py              # Main Gradio application logic
+ ┣ 📜 requirements.txt    # Project dependencies
+ ┗ 📜 README.md           # Documentation
+
 ```
 
 ---
 
-## ✅ Requirements
+## 🎨 Visual Preview
 
-* Python 3.8+
-* TensorFlow 2.x
-* Gradio 4.x
-* NumPy, Pillow
+> **Pro Tip:** Use the "Fill Mode" toggle to see how the model handles empty pixels created by rotations or shifts.
+
+<div align="center">
+<img src="demo/demo.png" alt="App Demo" width="850" style="border-radius: 10px;">
+</div>
 
 ---
 
 ## 🤝 Contributing
 
-PRs and feature requests are welcome! Feel free to fork this repo and enhance the UI/UX or add new augmentation features.
+Contributions make the open-source community an amazing place to learn and create.
 
----
+1. **Fork** the Project.
+2. Create your **Feature Branch** (`git checkout -b feature/AmazingFeature`).
+3. **Commit** your changes (`git commit -m 'Add some AmazingFeature'`).
+4. **Push** to the Branch (`git push origin feature/AmazingFeature`).
+5. Open a **Pull Request**.
 
 ## 📜 License
 
-MIT License © 2025
+Distributed under the MIT License. See `LICENSE` for more information.
 
-```
+---
