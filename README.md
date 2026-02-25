@@ -10,13 +10,7 @@ Optimize with confidence.
 
 ## 🎨 Live Preview
 
-![Image](https://www.researchgate.net/publication/384419127/figure/fig2/AS%3A11431281429306522%401746707694677/Gradio-web-app-interface-for-OE-data-augmentation_Q320.jpg)
-
 ![Image](https://blog.keras.io/img/imgclf/cat_data_augmentation.png)
-
-![Image](https://www.researchgate.net/publication/378442351/figure/fig2/AS%3A11431281361473991%401744123696562/Data-augmentation-techniques-such-as-flipping-rotation-zooming-and-cropping-employed.tif)
-
-![Image](https://www.researchgate.net/publication/352167046/figure/fig6/AS%3A11431281212161270%401702563034394/Sample-image-data-augmentation-a-Rotation-results-b-Zoom-results-c-Shearing.tif)
 
 ---
 
