@@ -121,7 +121,7 @@ Minimal structure. Clean separation of concerns.
 ### 1️⃣ Clone the Repository
 
 ```bash id="xv8nqw"
-git clone https://github.com/your-username/image-data-augmentation-gradio.git
+git clone https://github.com/Tanmay1112004/image-data-augmentation-gradio.git
 cd image-data-augmentation-gradio
 ```
 
@@ -220,8 +220,3 @@ Open to opportunities in:
 
 ---
 
-### Augment smarter.
-
-### Train better models.
-
-### Build stronger vision systems. 🚀
