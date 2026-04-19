@@ -24,6 +24,11 @@ Upload an image → tweak parameters → **see transformations instantly**
 
 ---
 
+## Demo Images
+
+
+---
+
 ## 🚨 Problem Statement
 
 In computer vision pipelines:
