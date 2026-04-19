@@ -141,7 +141,7 @@ Gradio UI Display
 ## 🚀 Quick Start
 
 ```bash id="startcv1"
-git clone https://github.com/Tanmay1112004/image-data-augmentation-gradio.git
+git clone https://github.com//image-data-augmentation-gradio.git
 cd image-data-augmentation-gradio
 pip install -r requirements.txt
 python app.py
