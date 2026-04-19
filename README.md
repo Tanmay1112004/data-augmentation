@@ -26,6 +26,7 @@ Upload an image → tweak parameters → **see transformations instantly**
 
 ## Demo Images
 
+![Image](https://blog.keras.io/img/imgclf/cat_data_augmentation.png)
 
 ---
 
