@@ -10,7 +10,7 @@ Optimize with confidence.
 
 ## 🎨 Live Preview
 
-![Image](https://blog.keras.io/img/imgclf/cat_data_augmentation.png)
+
 
 ---
 
